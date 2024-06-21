@@ -4,7 +4,7 @@ import structuredCabling from './structuredcabling.png';
 import itmanagedservices from './itmanagedservices.png';
 import securitycameras from './securitycameras.png';
 
-const Navbar = () => {
+const App = () => {
   return (
     <>
       <div className="relative">
@@ -76,4 +76,4 @@ const Navbar = () => {
   );
 }
 
-export default Navbar;
+export default App;
