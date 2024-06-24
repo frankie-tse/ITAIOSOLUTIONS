@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/itaiosolutions/static/css/main.7e1bb303.css",
-    "main.js": "/itaiosolutions/static/js/main.3752b473.js",
+    "main.css": "/itaiosolutions/static/css/main.87f907c3.css",
+    "main.js": "/itaiosolutions/static/js/main.765bfba2.js",
     "static/js/453.4c7473c3.chunk.js": "/itaiosolutions/static/js/453.4c7473c3.chunk.js",
     "static/media/structuredcabling.png": "/itaiosolutions/static/media/structuredcabling.f52f51a0805fbdf9069b.png",
     "static/media/itaioimage2.png": "/itaiosolutions/static/media/itaioimage2.085aaba49052b2b25a26.png",
     "static/media/itmanagedservices.png": "/itaiosolutions/static/media/itmanagedservices.b095ec7aeda707a433ed.png",
     "static/media/securitycameras.png": "/itaiosolutions/static/media/securitycameras.e711767fa99a1493431d.png",
     "index.html": "/itaiosolutions/index.html",
-    "main.7e1bb303.css.map": "/itaiosolutions/static/css/main.7e1bb303.css.map",
-    "main.3752b473.js.map": "/itaiosolutions/static/js/main.3752b473.js.map",
+    "main.87f907c3.css.map": "/itaiosolutions/static/css/main.87f907c3.css.map",
+    "main.765bfba2.js.map": "/itaiosolutions/static/js/main.765bfba2.js.map",
     "453.4c7473c3.chunk.js.map": "/itaiosolutions/static/js/453.4c7473c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e1bb303.css",
-    "static/js/main.3752b473.js"
+    "static/css/main.87f907c3.css",
+    "static/js/main.765bfba2.js"
   ]
 }
