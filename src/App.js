@@ -1,30 +1,55 @@
-import React from 'react';
+import React, { useState } from 'react';
 import techImage from './itaioimage2.png'; // Adjust the path accordingly
 import structuredCabling from './structuredcabling.png';
 import itmanagedservices from './itmanagedservices.png';
 import securitycameras from './securitycameras.png';
+import hamburgericon from './hamburgericon.png'; // Add the hamburger image import
 
 const App = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <>
       <div className="relative">
         <img src={techImage} alt="Navbar Background" className="w-full object-cover" style={{ height: '60vh' }}/>
-        <nav className="absolute top-0 left-0 w-full pt-8 p-4 flex justify-between items-center" style={{ background: 'transparent' }}>
-          <div className="flex items-center">
-            <span className="text-black text-2xl font-bold ml-8">IT AIO SOLUTIONS</span>
-          </div>
-          <ul className="flex space-x-4">
-            <li><a href="#home" className="text-black hover:text-gray-300">Home</a></li>
-            <li><a href="#about" className="text-black hover:text-gray-300">About</a></li>
-            <li><a href="#services" className="text-black hover:text-gray-300">Services</a></li>
-            <li><a href="#portfolio" className="text-black hover:text-gray-300">Portfolio</a></li>
-            <li><a href="#contact" className="text-black hover:text-gray-300">Contact</a></li>
-          </ul>
-        </nav>
-        <div className="absolute top-1/3 left-0 p-4 bg-black bg-opacity-50 text-black w-full md:w-1/2 flex items-start justify-center" style={{ background: 'transparent'}}>
+        <div className="absolute top-0 left-0 w-full z-10">
+          <nav className="relative pt-8 p-4 flex justify-between items-center" style={{ background: 'transparent' }}>
+            <div className="flex items-center">
+              <span className="text-black text-2xl font-bold ml-8">IT AIO SOLUTIONS</span>
+            </div>
+            <div className="md:hidden">
+              <button onClick={toggleMenu} className="text-black focus:outline-none">
+                <img src={hamburgericon} alt="Menu" className="w-6 h-6" />
+              </button>
+            </div>
+            <ul className="hidden md:flex space-x-4">
+              <li><a href="#home" className="text-black hover:text-gray-300">Home</a></li>
+              <li><a href="#about" className="text-black hover:text-gray-300">About</a></li>
+              <li><a href="#services" className="text-black hover:text-gray-300">Services</a></li>
+              <li><a href="#portfolio" className="text-black hover:text-gray-300">Portfolio</a></li>
+              <li><a href="#contact" className="text-black hover:text-gray-300">Contact</a></li>
+            </ul>
+          </nav>
+          {isMenuOpen && (
+            <div className="relative bg-white shadow-lg md:hidden z-20">
+              <ul className="flex flex-col items-start p-4 space-y-2">
+                <li><a href="#home" className="block text-black hover:text-gray-300">Home</a></li>
+                <li><a href="#about" className="block text-black hover:text-gray-300">About</a></li>
+                <li><a href="#services" className="block text-black hover:text-gray-300">Services</a></li>
+                <li><a href="#portfolio" className="block text-black hover:text-gray-300">Portfolio</a></li>
+                <li><a href="#contact" className="block text-black hover:text-gray-300">Contact</a></li>
+              </ul>
+            </div>
+          )}
+        </div>
+        <div className={`absolute top-1/3 left-0 p-4 bg-black bg-opacity-50 text-black w-full md:w-1/2 flex items-start justify-center transition-all duration-300 ${isMenuOpen ? 'mt-32' : 'mt-0'}`} style={{ background: 'transparent' }}>
           <div>
             <h1 className="text-3xl font-bold">IT AIO Solutions</h1>
-            <p className="text-lg mt-2">Providing an All-In-One Solutions for your IT services.</p>
+            <p className="text-lg mt-2">Providing All-In-One Solutions for your IT services.</p>
             <a href="#contact" className="inline-block mt-4 px-6 py-2 bg-blue-500 text-white font-bold rounded hover:bg-blue-700 transition duration-300">
               Contact Us
             </a>
