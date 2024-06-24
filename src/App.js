@@ -1,5 +1,5 @@
 import React from 'react';
-import techImage from './itaioimage.png'; // Adjust the path accordingly
+import techImage from './itaioimage2.png'; // Adjust the path accordingly
 import structuredCabling from './structuredcabling.png';
 import itmanagedservices from './itmanagedservices.png';
 import securitycameras from './securitycameras.png';
@@ -8,19 +8,28 @@ const App = () => {
   return (
     <>
       <div className="relative">
-        <img src={techImage} alt="Navbar Background" className="w-full h-auto object-cover" />
+        <img src={techImage} alt="Navbar Background" className="w-full object-cover" style={{ height: '60vh' }}/>
         <nav className="absolute top-0 left-0 w-full pt-8 p-4 flex justify-between items-center" style={{ background: 'transparent' }}>
           <div className="flex items-center">
-            <span className="text-white text-2xl font-bold ml-8">IT AIO SOLUTIONS</span>
+            <span className="text-black text-2xl font-bold ml-8">IT AIO SOLUTIONS</span>
           </div>
           <ul className="flex space-x-4">
-            <li><a href="#home" className="text-white hover:text-gray-300">Home</a></li>
-            <li><a href="#about" className="text-white hover:text-gray-300">About</a></li>
-            <li><a href="#services" className="text-white hover:text-gray-300">Services</a></li>
-            <li><a href="#portfolio" className="text-white hover:text-gray-300">Portfolio</a></li>
-            <li><a href="#contact" className="text-white hover:text-gray-300">Contact</a></li>
+            <li><a href="#home" className="text-black hover:text-gray-300">Home</a></li>
+            <li><a href="#about" className="text-black hover:text-gray-300">About</a></li>
+            <li><a href="#services" className="text-black hover:text-gray-300">Services</a></li>
+            <li><a href="#portfolio" className="text-black hover:text-gray-300">Portfolio</a></li>
+            <li><a href="#contact" className="text-black hover:text-gray-300">Contact</a></li>
           </ul>
         </nav>
+        <div className="absolute top-1/3 left-0 p-4 bg-black bg-opacity-50 text-black w-full md:w-1/2 flex items-start justify-center" style={{ background: 'transparent'}}>
+          <div>
+            <h1 className="text-3xl font-bold">IT AIO Solutions</h1>
+            <p className="text-lg mt-2">Providing an All-In-One Solutions for your IT services.</p>
+            <a href="#contact" className="inline-block mt-4 px-6 py-2 bg-blue-500 text-white font-bold rounded hover:bg-blue-700 transition duration-300">
+              Contact Us
+            </a>
+          </div>
+        </div>
       </div>
 
       <div className="bg-white p-8">
@@ -67,7 +76,7 @@ const App = () => {
         </div>
       </div>
 
-      <footer className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 p-4 mt-8 text-white text-center shadow-lg">
+      <footer className="bg-gray-200 p-4 mt-8 text-black text-center shadow-lg">
         <div className="container mx-auto">
           &copy; 2024 IT AIO Solutions. All rights reserved.
         </div>
