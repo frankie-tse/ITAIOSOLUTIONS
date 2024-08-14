@@ -1,33 +1,15 @@
 {
   "files": {
     "main.css": "/itaiosolutions/static/css/main.52c2fb35.css",
-    "main.js": "/itaiosolutions/static/js/main.83a99ff1.js",
+    "main.js": "/itaiosolutions/static/js/main.69eb37a7.js",
     "static/js/453.4c7473c3.chunk.js": "/itaiosolutions/static/js/453.4c7473c3.chunk.js",
-    "static/media/structuredcabling.png": "/itaiosolutions/static/media/structuredcabling.f52f51a0805fbdf9069b.png",
-    "static/media/itaioimage2.png": "/itaiosolutions/static/media/itaioimage2.085aaba49052b2b25a26.png",
-    "static/media/itmanagedservices.png": "/itaiosolutions/static/media/itmanagedservices.b095ec7aeda707a433ed.png",
-    "static/media/securitycameras.png": "/itaiosolutions/static/media/securitycameras.e711767fa99a1493431d.png",
-    "static/media/helpdesk.jpg": "/itaiosolutions/static/media/helpdesk.a8ad7e13e460b4e0c622.jpg",
-    "static/media/security.jpg": "/itaiosolutions/static/media/security.0ebe72f425d2b46e0274.jpg",
-    "static/media/cabling.jpg": "/itaiosolutions/static/media/cabling.e0903173ad8efa61c594.jpg",
-    "static/media/msp.jpg": "/itaiosolutions/static/media/msp.cdc45121359fbac84dba.jpg",
-    "static/media/voip.jpg": "/itaiosolutions/static/media/voip.c2abc5d6644b60b63312.jpg",
-    "static/media/location.jpg": "/itaiosolutions/static/media/location.22cde57c01ae452664a5.jpg",
-    "static/media/lenovo.png": "/itaiosolutions/static/media/lenovo.e7336664e64923a938d5.png",
-    "static/media/av.jpg": "/itaiosolutions/static/media/av.56fea3783402aae51bca.jpg",
-    "static/media/handshake.jpg": "/itaiosolutions/static/media/handshake.5ef90f21bd5903aca547.jpg",
-    "static/media/aboutme.jpg": "/itaiosolutions/static/media/aboutme.3e107e1deecca029ca6d.jpg",
-    "static/media/dell.png": "/itaiosolutions/static/media/dell.30ee3d7b6da7f0eac032.png",
-    "static/media/microsoft.jpg": "/itaiosolutions/static/media/microsoft.397dad6ee3ac8277c54c.jpg",
-    "static/media/money.jpg": "/itaiosolutions/static/media/money.4e7fe8a49204e4e0a462.jpg",
-    "static/media/quotes.svg": "/itaiosolutions/static/media/quotes.5c7c8a7c3dba34fb51cffb76a51d2783.svg",
     "index.html": "/itaiosolutions/index.html",
     "main.52c2fb35.css.map": "/itaiosolutions/static/css/main.52c2fb35.css.map",
-    "main.83a99ff1.js.map": "/itaiosolutions/static/js/main.83a99ff1.js.map",
+    "main.69eb37a7.js.map": "/itaiosolutions/static/js/main.69eb37a7.js.map",
     "453.4c7473c3.chunk.js.map": "/itaiosolutions/static/js/453.4c7473c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.52c2fb35.css",
-    "static/js/main.83a99ff1.js"
+    "static/js/main.69eb37a7.js"
   ]
 }
