@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/itaiosolutions/static/css/main.52c2fb35.css",
-    "main.js": "/itaiosolutions/static/js/main.69eb37a7.js",
-    "static/js/453.4c7473c3.chunk.js": "/itaiosolutions/static/js/453.4c7473c3.chunk.js",
-    "index.html": "/itaiosolutions/index.html",
-    "main.52c2fb35.css.map": "/itaiosolutions/static/css/main.52c2fb35.css.map",
-    "main.69eb37a7.js.map": "/itaiosolutions/static/js/main.69eb37a7.js.map",
-    "453.4c7473c3.chunk.js.map": "/itaiosolutions/static/js/453.4c7473c3.chunk.js.map"
+    "main.css": "/static/css/main.52c2fb35.css",
+    "main.js": "/static/js/main.f5fd82dc.js",
+    "static/js/453.4c7473c3.chunk.js": "/static/js/453.4c7473c3.chunk.js",
+    "index.html": "/index.html",
+    "main.52c2fb35.css.map": "/static/css/main.52c2fb35.css.map",
+    "main.f5fd82dc.js.map": "/static/js/main.f5fd82dc.js.map",
+    "453.4c7473c3.chunk.js.map": "/static/js/453.4c7473c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.52c2fb35.css",
-    "static/js/main.69eb37a7.js"
+    "static/js/main.f5fd82dc.js"
   ]
 }
