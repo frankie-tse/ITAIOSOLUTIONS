@@ -17,7 +17,7 @@ import '../index.css';
 const App = () => {
   return (
     <HelmetProvider>
-      <Router>
+      <Router basename="itaiosolutions">
         <div className="relative">
           <Navbar />
           <div>
