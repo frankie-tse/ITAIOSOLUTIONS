@@ -13,11 +13,12 @@ import VoIPSolutions from './VoIPSolutions'; // New Component
 import Navbar from './Navbar';
 import Footer from './Footer';
 import '../index.css';
+import NotFound from './components/NotFound';
 
 const App = () => {
   return (
     <HelmetProvider>
-      <Router basename="itaiosolutions">
+      <Router basename="/itaiosolutions">
         <div className="relative">
           <Navbar />
           <div>
@@ -32,6 +33,7 @@ const App = () => {
               <Route path="/services/security-system-installations" element={<SecuritySystemInstallations />} />
               <Route path="/services/audio-video-installations" element={<AudioVideoInstallations />} />
               <Route path="/services/voip-solutions" element={<VoIPSolutions />} />
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </div>
           <Footer />
