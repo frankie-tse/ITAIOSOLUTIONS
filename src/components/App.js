@@ -18,7 +18,7 @@ import NotFound from './NotFound';
 const App = () => {
   return (
     <HelmetProvider>
-      <Router basename="/">
+      <Router>
         <div className="relative">
           <Navbar />
           <div>
