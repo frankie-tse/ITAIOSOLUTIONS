@@ -12,7 +12,7 @@ const HelpDeskMaintenance = () => {
       <Services
         title="Help Desk & Maintenance"
         description="Our comprehensive Help Desk & Maintenance services are designed to ensure that your IT infrastructure operates smoothly at all times. Our team of IT support experts is readily available to address any technical issues and provide ongoing maintenance, ensuring that your business operations remain uninterrupted and efficient."
-        imageSrc={`${process.env.PUBLIC_URL}/images/helpdesk.png`}
+        imageSrc={`${process.env.PUBLIC_URL}/images/helpdesk.jpg`}
       />
     </>
   );
