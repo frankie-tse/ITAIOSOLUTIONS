@@ -11,7 +11,7 @@ const MoreInfo = () => {
         <div className="flex flex-col md:flex-row-reverse items-center text-center md:text-left mb-8 w-full">
           <div className="w-full md:w-1/2 p-4">
             <LazyLoadImage
-              src={location}
+              src={process.env.PUBLIC_URL.location}
               alt="Location"
               className="w-full h-64 mb-4 md:mb-0 object-cover"
               effect="blur"
@@ -25,7 +25,7 @@ const MoreInfo = () => {
         <div className="flex flex-col md:flex-row items-center text-center md:text-left mb-8 w-full">
           <div className="w-full md:w-1/2 p-4">
             <LazyLoadImage
-              src={handshake}
+              src={process.env.PUBLIC_URL.handshake}
               alt="Handshake"
               className="w-full h-36"
               effect="blur"
@@ -39,7 +39,7 @@ const MoreInfo = () => {
         <div className="flex flex-col md:flex-row-reverse items-center text-center md:text-left mb-8 w-full">
           <div className="w-full md:w-1/2 p-4">
             <LazyLoadImage
-              src={money}
+              src={process.env.PUBLIC_URL.money}
               alt="Money"
               className="w-full h-64 mb-4 md:mb-0 object-cover"
               effect="blur"

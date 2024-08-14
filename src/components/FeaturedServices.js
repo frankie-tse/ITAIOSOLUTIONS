@@ -20,7 +20,7 @@ const FeaturedServices = () => {
               <p className="text-2xl font-bold">Structured Cabling & Network</p>
             </div>
             <LazyLoadImage
-              src={structuredCabling}
+              src={process.env.PUBLIC_URL.structuredCabling}
               alt="Service 1"
               className="w-full h-auto mb-4"
               effect="blur"
@@ -32,7 +32,7 @@ const FeaturedServices = () => {
               <p className="text-2xl font-bold">IT Help Desk & Maintenance</p>
             </div>
             <LazyLoadImage
-              src={itmanagedservices}
+              src={process.env.PUBLIC_URL.itmanagedservices}
               alt="Service 2"
               className="w-full h-auto mb-4"
               effect="blur"
@@ -44,7 +44,7 @@ const FeaturedServices = () => {
               <p className="text-2xl font-bold">Security System Installation</p>
             </div>
             <LazyLoadImage
-              src={securitycameras}
+              src={process.env.PUBLIC_URL.securitycameras}
               alt="Service 3"
               className="w-full h-auto mb-4"
               effect="blur"

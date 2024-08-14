@@ -16,25 +16,25 @@ const Partners = () => {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center">
           <LazyLoadImage
-            src={microsoft}
+            src={process.env.PUBLIC_URL.microsoft}
             alt="Microsoft Partner"
             className="w-32 h-32 object-contain"
             effect="blur"
           />
           <LazyLoadImage
-            src={dell}
+            src={process.env.PUBLIC_URL.dell}
             alt="Dell Partner"
             className="w-32 h-32 object-contain"
             effect="blur"
           />
           <LazyLoadImage
-            src={lenovo}
+            src={process.env.PUBLIC_URL.lenovo}
             alt="Lenovo Partner"
             className="w-32 h-32 object-contain"
             effect="blur"
           />
           <LazyLoadImage
-            src={apple}
+            src={process.env.PUBLIC_URL.apple}
             alt="Apple Partner"
             className="w-32 h-32 object-contain"
             effect="blur"

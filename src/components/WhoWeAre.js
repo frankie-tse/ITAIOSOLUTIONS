@@ -23,7 +23,7 @@ const WhoWeAre = () => {
         </div>
         <div className="flex justify-center mt-4">
           <LazyLoadImage
-            src={triangleDown}
+            src={process.env.PUBLIC_URL.triangleDown}
             alt="Triangle Down"
             className="w-24 h-24"
             effect="blur"

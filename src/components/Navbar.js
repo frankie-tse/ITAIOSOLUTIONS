@@ -53,7 +53,7 @@ const Navbar = () => {
         <title>IT AIO Solutions - Your All-In-One IT Services</title>
         <meta name="description" content="IT AIO Solutions provides comprehensive IT services including managed services, security systems, audio/video installations, and more." />
       </Helmet>
-      <img src={techImage} alt="Navbar Background" className="w-full object-cover" style={{ height: '60vh' }} />
+      <img src={process.env.PUBLIC_URL.techImage} alt="Navbar Background" className="w-full object-cover" style={{ height: '60vh' }} />
       <div className="absolute top-0 left-0 w-full z-10">
         <nav className="relative pt-8 p-4 flex justify-between items-center" style={{ background: 'transparent' }}>
           <div className="flex items-center">
@@ -61,7 +61,7 @@ const Navbar = () => {
           </div>
           <div className="md:hidden">
             <button onClick={toggleMenu} className="text-black focus:outline-none">
-              <img src={hamburgericon} alt="Menu" className="w-6 h-6" />
+              <img src={process.env.PUBLIC_URL.hamburgericon} alt="Menu" className="w-6 h-6" />
             </button>
           </div>
           <ul className="hidden md:flex space-x-8"> {/* Increase spacing between items */}

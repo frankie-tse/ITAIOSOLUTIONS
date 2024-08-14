@@ -17,14 +17,14 @@ const Testimonials = ({ testimonials, currentTestimonial, prevTestimonial, nextT
         <div className="relative bg-white p-8 rounded-lg max-w-3xl h-80 mx-auto shadow-lg mt-12">
           <div className="absolute -top-8 left-1/2 transform -translate-x-1/2">
             <LazyLoadImage
-              src={quotesImage}
+              src={process.env.PUBLIC_URL.quotesImage}
               alt="Quote Icon"
               className="w-16 h-16"
               effect="blur"
             />
           </div>
           <button onClick={prevTestimonial} className="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-1/2">
-            <img src={leftArrowImage} alt="Previous" className="w-8 h-8"/>
+            <img src={process.env.PUBLIC_URL.leftArrowImage} alt="Previous" className="w-8 h-8"/>
           </button>
           <div className="text-center text-xl flex items-center justify-center h-full">
             <div className="et_pb_slide_description">
@@ -35,7 +35,7 @@ const Testimonials = ({ testimonials, currentTestimonial, prevTestimonial, nextT
             </div>
           </div>
           <button onClick={nextTestimonial} className="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-1/2">
-            <img src={rightArrowImage} alt="Next" className="w-8 h-8"/>
+            <img src={process.env.PUBLIC_URL.rightArrowImage} alt="Next" className="w-8 h-8"/>
           </button>
         </div>
       </div>

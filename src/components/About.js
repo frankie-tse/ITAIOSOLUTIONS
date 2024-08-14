@@ -20,7 +20,7 @@ const About = () => {
         <div className="flex flex-col md:flex-row items-center text-lg mb-8">
           <div className="w-full md:w-1/2 flex justify-center md:justify-end mb-4 md:mb-0">
             <LazyLoadImage
-              src={aboutMe}
+              src={process.env.PUBLIC_URL.aboutMe}
               alt="About Me"
               className="w-full h-auto max-w-xl"
               effect="blur"

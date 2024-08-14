@@ -13,7 +13,7 @@ const SecuritySystemInstallations = () => {
       <Services
         title="Security System Installations"
         description="Our Security System Installations offer robust and comprehensive security solutions tailored to meet your specific business requirements. Whether you need advanced surveillance cameras, access control systems, or full-scale security integration, we provide the expertise to secure your premises effectively, ensuring the safety and protection of your assets and personnel."
-        imageSrc={security}
+        imageSrc={process.env.PUBLIC_URL.security}
       />
     </>
   );
