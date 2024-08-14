@@ -1,6 +1,5 @@
 import React from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import triangleDown from '../triangleDown.png';
 import { Helmet } from 'react-helmet-async';
 
 const WhyChooseUs = () => {
@@ -18,7 +17,7 @@ const WhyChooseUs = () => {
           </div>
           <div className="flex justify-center mt-4">
             <LazyLoadImage
-              src={process.env.PUBLIC_URL.triangleDown}
+              src={`${process.env.PUBLIC_URL}/images/triangleDown.png`}
               alt="Triangle Down"
               className="w-24 h-24"
               effect="blur"

@@ -1,8 +1,5 @@
 import React from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import structuredCabling from '../structuredcabling.png';
-import itmanagedservices from '../itmanagedservices.png';
-import securitycameras from '../securitycameras.png';
 import { Helmet } from 'react-helmet-async';
 
 const FeaturedServices = () => {
@@ -20,7 +17,7 @@ const FeaturedServices = () => {
               <p className="text-2xl font-bold">Structured Cabling & Network</p>
             </div>
             <LazyLoadImage
-              src={process.env.PUBLIC_URL.structuredCabling}
+              src={`${process.env.PUBLIC_URL}/images/structuredcabling.png`}
               alt="Service 1"
               className="w-full h-auto mb-4"
               effect="blur"
@@ -32,7 +29,7 @@ const FeaturedServices = () => {
               <p className="text-2xl font-bold">IT Help Desk & Maintenance</p>
             </div>
             <LazyLoadImage
-              src={process.env.PUBLIC_URL.itmanagedservices}
+              src={`${process.env.PUBLIC_URL}/images/itmanagedservices.png`}
               alt="Service 2"
               className="w-full h-auto mb-4"
               effect="blur"
@@ -44,7 +41,7 @@ const FeaturedServices = () => {
               <p className="text-2xl font-bold">Security System Installation</p>
             </div>
             <LazyLoadImage
-              src={process.env.PUBLIC_URL.securitycameras}
+              src={`${process.env.PUBLIC_URL}/images/securitycameras.png`}
               alt="Service 3"
               className="w-full h-auto mb-4"
               effect="blur"

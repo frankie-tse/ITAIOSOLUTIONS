@@ -1,7 +1,6 @@
 import React from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-import aboutMe from '../aboutme.jpg';
 import { Helmet } from 'react-helmet-async';
 import GetStarted from './GetStarted';
 import MoreInfo from './MoreInfo';
@@ -20,7 +19,7 @@ const About = () => {
         <div className="flex flex-col md:flex-row items-center text-lg mb-8">
           <div className="w-full md:w-1/2 flex justify-center md:justify-end mb-4 md:mb-0">
             <LazyLoadImage
-              src={process.env.PUBLIC_URL.aboutMe}
+              src={`${process.env.PUBLIC_URL}/images/aboutme.jpg`}
               alt="About Me"
               className="w-full h-auto max-w-xl"
               effect="blur"
