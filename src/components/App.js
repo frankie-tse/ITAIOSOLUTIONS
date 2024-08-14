@@ -13,7 +13,7 @@ import VoIPSolutions from './VoIPSolutions'; // New Component
 import Navbar from './Navbar';
 import Footer from './Footer';
 import '../index.css';
-import NotFound from './components/NotFound';
+import NotFound from './NotFound';
 
 const App = () => {
   return (
