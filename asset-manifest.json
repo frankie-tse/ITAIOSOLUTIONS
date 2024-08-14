@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/itaiosolutions/static/css/main.52c2fb35.css",
-    "main.js": "/itaiosolutions/static/js/main.0a477c7b.js",
+    "main.js": "/itaiosolutions/static/js/main.97967c45.js",
     "static/js/453.4c7473c3.chunk.js": "/itaiosolutions/static/js/453.4c7473c3.chunk.js",
     "static/media/structuredcabling.png": "/itaiosolutions/static/media/structuredcabling.f52f51a0805fbdf9069b.png",
     "static/media/itaioimage2.png": "/itaiosolutions/static/media/itaioimage2.085aaba49052b2b25a26.png",
@@ -23,11 +23,11 @@
     "static/media/quotes.svg": "/itaiosolutions/static/media/quotes.5c7c8a7c3dba34fb51cffb76a51d2783.svg",
     "index.html": "/itaiosolutions/index.html",
     "main.52c2fb35.css.map": "/itaiosolutions/static/css/main.52c2fb35.css.map",
-    "main.0a477c7b.js.map": "/itaiosolutions/static/js/main.0a477c7b.js.map",
+    "main.97967c45.js.map": "/itaiosolutions/static/js/main.97967c45.js.map",
     "453.4c7473c3.chunk.js.map": "/itaiosolutions/static/js/453.4c7473c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.52c2fb35.css",
-    "static/js/main.0a477c7b.js"
+    "static/js/main.97967c45.js"
   ]
 }
